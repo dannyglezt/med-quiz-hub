@@ -1220,8 +1220,8 @@ window.addEventListener('load',syncTopbarHeight);
 const SEMESTRES={
   s1:{name:'1er Semestre',subtitle:'En curso',unlocked:true,parciales:{
     p1:{name:'Parcial 1',subtitle:'Procesos Celulares + Salud Pública',unlocked:true,materias:['cellbio','saludpublica']},
-    p2:{name:'Parcial 2',subtitle:'Procesos Celulares + Genética',unlocked:true,materias:['cellbio2','genetica']},
-    p3:{name:'Parcial 3',subtitle:'Próximamente',unlocked:false,materias:[]}
+    p2:{name:'Parcial 2',subtitle:'Procesos Celulares',unlocked:true,materias:['cellbio2']},
+    p3:{name:'Parcial 3',subtitle:'Genética',unlocked:true,materias:['genetica']}
   }},
   s2:{name:'2do Semestre',subtitle:'Próximamente',unlocked:false,parciales:{}},
   s3:{name:'3er Semestre',subtitle:'Próximamente',unlocked:false,parciales:{}},
@@ -1250,7 +1250,7 @@ Object.assign(BLOCK_ICONS,{"g1__base": "<circle cx=\"12\" cy=\"12\" r=\"8\"/><ci
 const MATERIAS={
   cellbio:{name:'Procesos Celulares y Metabólicos',subtitle:'Biología celular',topics:TOPICS_CB,blocks:BLOCKS_CB,questions:Q_CB,imgMap:IMG_MAP_CB,cheatsheet:CHEATSHEET_CB,flash:FLASH_CB,iconPaths:TOPIC_ICON_PATHS_CB,shades:PINK_SHADES,confetti:PINK_CONFETTI},
   cellbio2:{name:'Procesos Celulares y Metabólicos',subtitle:'Biología celular · Parcial 2',topics:TOPICS_CB2,blocks:BLOCKS_CB2,questions:Q_CB2,imgMap:IMG_MAP_CB2,cheatsheet:CHEATSHEET_CB2,flash:FLASH_CB2,iconPaths:TOPIC_ICON_PATHS_CB2,shades:PINK_SHADES,confetti:PINK_CONFETTI},
-  genetica:{name:'Fundamentos de Genética y Genómica',subtitle:'Genética · Parcial 2',topics:TOPICS_GEN,blocks:BLOCKS_GEN,questions:Q_GEN,imgMap:IMG_MAP_GEN,cheatsheet:CHEATSHEET_GEN,flash:FLASH_GEN,iconPaths:TOPIC_ICON_PATHS_GEN,shades:PURPLE_SHADES,confetti:PURPLE_CONFETTI},
+  genetica:{name:'Fundamentos de Genética y Genómica',subtitle:'Genética · Parcial 3',topics:TOPICS_GEN,blocks:BLOCKS_GEN,questions:Q_GEN,imgMap:IMG_MAP_GEN,cheatsheet:CHEATSHEET_GEN,flash:FLASH_GEN,iconPaths:TOPIC_ICON_PATHS_GEN,shades:PURPLE_SHADES,confetti:PURPLE_CONFETTI},
   saludpublica:{name:'Salud Pública',subtitle:'Mini-casos clínicos',topics:TOPICS_SP,blocks:BLOCKS_SP,questions:Q_SP,imgMap:IMG_MAP_SP,cheatsheet:CHEATSHEET_SP,flash:FLASH_SP,iconPaths:TOPIC_ICON_PATHS_SP,shades:BLUE_SHADES,confetti:BLUE_CONFETTI}
 };
 
